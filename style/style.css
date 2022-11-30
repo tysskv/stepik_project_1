@@ -1,0 +1,138 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+body{
+    font-family: Roboto;
+}
+.content {
+    width: 1219px;
+    padding: 0 55px;
+    margin: 0 auto;
+
+}
+.clear-float {
+    clear: both;
+}
+/*Стили для шапки*/
+.header{
+    background-color: #007765;
+    height: 84px;
+    position: fixed;
+    width: 100%;
+}
+
+.fixsed{
+    height: 84px;/*для заглушки*/
+}
+
+.header .logo{
+    float: left;
+    padding-left: 63px;
+    padding-top: 20px;
+}
+
+.header .nav{
+    float: right;
+    padding-right: 54px;
+    padding-top: 29px;
+    padding-bottom: 26px;
+    font-size: 24px;
+    color: white;
+}
+
+.header .nav .link{
+    color: white;
+    text-decoration: none;
+}
+
+/*Стили для главного баннера*/
+.picture_1{
+    background: URL("../img/image-8.png") no-repeat;
+    height:403px;
+    background-size: cover;
+}
+.picture_1 h1{
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 132px;
+}
+
+
+/*Стили для текстового блока*/
+h2{
+    color: #007765;
+    text-align: center;
+    padding-top: 48px;
+    padding-left: 55px;
+    padding-right: 57px;
+    padding-bottom: 16px;
+    font-size: 64px;
+}
+.text_1 {
+    font-size: 32px;
+}
+.text_1 p{
+    margin-bottom: 50px;
+    line-height: 37.5px;
+}
+.back{
+    margin-right: 300px;
+}
+/*текст_2*/
+.logo_2{
+    width: 115px;
+    height: 115px;
+    float: left;
+}
+.text_right{
+    padding-left: 167px;
+}
+.kursiv{
+    font-style: italic;
+}
+
+.section_3{
+    padding-bottom: 67px;
+}
+/*секция с фото*/
+.section_4{
+    background-color: #EEEEEE;
+}
+h2#the_team{
+    padding-bottom: 30px;
+}
+.foto{
+    width: 350px;
+    height: 283px;
+    float: left;
+    text-align: center;
+    padding-left: 40px;
+}
+.section_4 h4{
+    color: #007765;
+    font-weight: bold;
+}
+.section_4 p{
+    font-style: italic;
+}
+/*последний блок*/
+.last_block{
+    background-color: #333333;
+    width: 100%;
+}
+.lasttext{
+    color: #FFFFFF;
+    padding-top: 49px;
+    padding-bottom: 65px;
+    font-size: 18px;
+    font-family: Roboto;
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
