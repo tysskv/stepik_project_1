@@ -55,6 +55,7 @@ body{
     background: URL("../img/image-8.png") no-repeat;
     height:403px;
     background-size: cover;
+    min-width: 1219px;
 }
 .picture_1 h1{
     color: white;
@@ -81,8 +82,33 @@ h2{
     margin-bottom: 50px;
     line-height: 37.5px;
 }
+.bolt{
+    font-weight: bold;
+}
 .back{
-    margin-right: 300px;
+    background-image: url("../img/image-1.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    min-width: 1219px;
+}
+.aaa{
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.bbb{
+    font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
 }
 /*текст_2*/
 .logo_2{
@@ -103,6 +129,7 @@ h2{
 /*секция с фото*/
 .section_4{
     background-color: #EEEEEE;
+    min-width: 1219px;
 }
 h2#the_team{
     padding-bottom: 30px;
@@ -125,6 +152,7 @@ h2#the_team{
 .last_block{
     background-color: #333333;
     width: 100%;
+    min-width: 1219px;
 }
 .lasttext{
     color: #FFFFFF;
